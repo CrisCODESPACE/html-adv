@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #666;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #ddd;
+      }
+      .subtabla th {
+        background-color: #b9c4ba;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Listado de Estudiantes y sus Notas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Curso</th>
+          <th>Notas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ana López</td>
+          <td>2º ESO</td>
+          <td>
+            <table class="subtabla">
+              <thead>
+                <tr>
+                  <th>Materia</th>
+                  <th>Nota</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lengua</td>
+                  <td>8.5</td>
+                </tr>
+                <tr>
+                  <td>Matemáticas</td>
+                  <td>9.8</td>
+                </tr>
+                <tr>
+                  <td>Inglés</td>
+                  <td>7.5</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>Manuel García</td>
+          <td>2º ESO</td>
+          <td>
+            <table class="subtabla">
+              <thead>
+                <tr>
+                  <th>Materia</th>
+                  <th>Nota</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lengua</td>
+                  <td>6.5</td>
+                </tr>
+                <tr>
+                  <td>Matemáticas</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>Inglés</td>
+                  <td>7.5</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- <form>
+      <input type="number" min="18" max="85" />
+      <button type="submit">send</button>
+    </form> -->
+    <!-- <form>
+      <input type="range" />
+    </form> -->
+    <!-- <form>
+      <input type="date" min="1900-01-01" max="2007-01-01" />
+    </form> -->
+  </body>
+</html>
