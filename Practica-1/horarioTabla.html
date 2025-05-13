@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #555;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .highlight {
+        background-color: #d9ead3;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Hora</th>
+          <th colspan="5">Días de la Semana</th>
+          <th rowspan="2">Observaciones</th>
+        </tr>
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00 - 09:00</td>
+          <td rowspan="2" class="highlight">Matemáticas</td>
+          <td>Lengua</td>
+          <td rowspan="2">Ciencias</td>
+          <td>Plástica</td>
+          <td>Inglés</td>
+          <td rowspan="3">Cambios según semana par/impar</td>
+        </tr>
+        <tr>
+          <td>09:00 - 10:00</td>
+          <td>Historia</td>
+          <td rowspan="2" class="highlight">Educación física</td>
+          <td>Lengua</td>
+        </tr>
+        <tr>
+          <td>10:00 - 11:00</td>
+          <td>Francés</td>
+          <td>Matemáticas</td>
+          <td>Música</td>
+          <td>Lengua</td>
+        </tr>
+        <tr>
+          <td colspan="7" style="background-color: #ddd; font-weight: bold">
+            Recreo (11:00 - 11:30)
+          </td>
+        </tr>
+        <tr>
+          <td>11:30 - 12:30</td>
+          <td>Ciencias</td>
+          <td>Matemáticas</td>
+          <td>Inglés</td>
+          <td colspan="2">Taller de Proyectos</td>
+          <td>Posible salida al laboratorio</td>
+        </tr>
+        <tr>
+          <td>12:30 - 13:30</td>
+          <td colspan="5" class="highlight">Trabajo en grupo</td>
+          <td>Evaluación informal</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
